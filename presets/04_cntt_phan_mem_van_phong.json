@@ -1,0 +1,45 @@
+{
+  "company_info": {
+    "legal_name": "CÔNG TY TNHH [ĐIỀN TÊN DOANH NGHIỆP CỦA BẠN]",
+    "short_brand": "[THƯƠNG HIỆU]",
+    "tax_code": "03xxxxxxxx",
+    "egp_contractor_id": "vn03xxxxxxxx",
+    "representative": "[HỌ VÀ TÊN GIÁM ĐỐC]",
+    "position": "Giám đốc",
+    "address": "[ĐỊA CHỈ ĐĂNG KÝ KINH DOANH]",
+    "email": "contact@tencongty.vn",
+    "hotline": "09xx xxx xxx",
+    "industry_sector": "Công nghệ thông tin, Phần mềm, Máy tính, Máy photocopy & Thiết bị văn phòng"
+  },
+  "hunting_config": {
+    "keywords": [
+      "mua sắm máy tính",
+      "bản quyền phần mềm",
+      "nạp mực máy in",
+      "thiết bị mạng",
+      "văn phòng phẩm"
+    ],
+    "bid_types": [
+      "YCBG",
+      "CHCT",
+      "DTRR",
+      "MSTT"
+    ]
+  },
+  "vault_assets": {
+    "legal_pdf": "./vault/02_Ho_So_Phap_Ly_GPKD_ISO.pdf",
+    "technical_msds_pdf": "./vault/03_Catalog_Hang_Hoa_Ky_Thuat.pdf",
+    "similar_contracts_pdf": "./vault/04_Hop_Dong_Tuong_Tu_Hoa_Don.pdf",
+    "capacity_sop_pdf": "./vault/05_Ho_So_Nang_Luc_Nhan_Su_BCTC.pdf"
+  },
+  "signing_node": {
+    "mode": "winrm",
+    "host": "TEN-MAY-WINDOWS.local",
+    "port": 5985,
+    "username": "Ten_User_Windows",
+    "password": "Mat_Khau_Windows",
+    "chrome_profile": "Profile 1",
+    "token_pin": "12345678",
+    "egp_agent_log": "C:\\MPI\\EGP-AGENT\\logs\\egp-agent-plugin.log"
+  }
+}
